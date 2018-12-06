@@ -24,7 +24,6 @@ class App extends Component {
 
   constructor() {
     super();
-    //this.state = { forms: { login_form: { user_name: 'erll', password: 'password123'}, reg_form: {birthday: '198999'}}};
     this.state = {forms: {}};
   }
 
