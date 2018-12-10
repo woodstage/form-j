@@ -1,21 +1,8 @@
-form.form_j {
-  border: 1px solid silver !important;
-  box-shadow: 0px 0px 10px silver !important;
-  background-color: #282c34 !important;
-  color: white !important;
+form.form_j_highlight {
+  outline: #8BC34A dashed 3px;
+  outline-offset: 8px;
 }
 
-form.form_j button.form_pickup {
-  font-size: 12px;
-  border: 1px solid silver !important;
-  box-shadow: 0px 0px 10px silver !important;
-  background-color: transparent;
-  color: white !important;
-  border-radius: 100%;
-  width: 64px;
-  height: 64px;
-}
-
-button.form_pickup:hover {
-  background-color: silver;
+.form_j_ctrl_panel_hidden {
+  display: none;
 }
